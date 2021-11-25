@@ -36,7 +36,7 @@ namespace CompanyDataAdministrationAPI.Services
             return company;
         }
 
-        internal void CreateCompanyEntry(CompanyFull company)
+        internal void CreateCompanyEntry(CompanyFull company) //couldn't really test this due to post not working like it should
         {
             var comp = company.Company;
             var addr = company.Address;
@@ -50,7 +50,7 @@ namespace CompanyDataAdministrationAPI.Services
 
                 _companyContext.SaveChanges();
 
-                addL.CompanyId = comp.CompanyId;
+                addL.CompanyId = comp.CompanyId; //not sure if the Ids get returned back here
                 addL.AddressId = addr.AddressId;
                 _addressLinkService.Add(company.AdressLink);
 

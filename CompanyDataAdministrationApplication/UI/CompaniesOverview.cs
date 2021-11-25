@@ -16,7 +16,7 @@ namespace CompanyDataAdministrationApplication
 {
     public partial class DataAdministration : Form
     {
-        private static readonly HttpClient _client = new HttpClient();
+        private static readonly HttpClient _client = new HttpClient(); // add as dependency injection
         List<Company> companyList = new List<Company>();
 
         public DataAdministration()
@@ -25,7 +25,14 @@ namespace CompanyDataAdministrationApplication
             FillTable();
         }
 
-        private void FillTable()
+        /**
+         * ListView not easy to add Buttons into cell, workaround with libraries/create own ui 
+         * element (Scrollable Container with vertical sorted Objects containing labesl + buttons)
+         * 
+         * add delete button to complement dialog intern delete and update button to complement 
+         * double click on listitem
+        **/
+        private void FillTable() 
         {
             companyList = new CompanyService(_client).GetOverview();
             foreach(Company c in companyList)

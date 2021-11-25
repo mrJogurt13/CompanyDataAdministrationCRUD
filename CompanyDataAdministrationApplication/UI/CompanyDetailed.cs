@@ -53,6 +53,7 @@ namespace CompanyDataAdministrationApplication.UI
             txt_country_post.Visible = b;
         }
 
+        //precheck for length and catch errors (phone or fax too long for integers)
         private void btn_update_Click(object sender, EventArgs e)
         {
             List<CompanyFull> companyList = new List<CompanyFull>();
@@ -94,6 +95,12 @@ namespace CompanyDataAdministrationApplication.UI
                 Company = company
             });
 
+            /**
+             * deletion of postal address gets ignored (simple check with current version 
+             *    -> if deleted add postal address to the update)
+             * 
+             * potentially additional api request to delete unused addresses
+            **/ 
             if (cb_hasPostal.Checked)
             {
                 Address post = new Address
@@ -121,7 +128,7 @@ namespace CompanyDataAdministrationApplication.UI
                 });
             }
 
-            new CompanyFullService(_client).Update(companyList); //ew
+            new CompanyFullService(_client).Update(companyList); //add services as dependency injection
             this.Close();
         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0xRIY7vWdJ4sZPXUKEyVbGi0dxYnXHHmAnVFq7bsxnDGsnttbVD1LIY4amiCh4wE8kaHkRnkuRGq9Q+0+U2VVA==",
+  "dgSpecHash": "IyFV13kwD9esk1HSKhUEaKXW9IiNVQDiUScUpX94KupBIyAk83Cp0+6RnIA4ENhhYIRzAWur4HWOgCDsYizPpA==",
   "success": true,
-  "projectFilePath": "E:\\Bibliothek\\gitprojects\\CompanyDataAdministration\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj",
+  "projectFilePath": "E:\\Bibliothek\\gitprojects\\CompanyDataAdministrationCRUD\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrjog\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mrjog\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

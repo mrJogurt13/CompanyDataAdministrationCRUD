@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Bibliothek\\gitprojects\\CompanyDataAdministration\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj": {}
+    "E:\\Bibliothek\\gitprojects\\CompanyDataAdministrationCRUD\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj": {}
   },
   "projects": {
-    "E:\\Bibliothek\\gitprojects\\CompanyDataAdministration\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj": {
+    "E:\\Bibliothek\\gitprojects\\CompanyDataAdministrationCRUD\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Bibliothek\\gitprojects\\CompanyDataAdministration\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj",
+        "projectUniqueName": "E:\\Bibliothek\\gitprojects\\CompanyDataAdministrationCRUD\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj",
         "projectName": "CompanyDataAdministrationAPI",
-        "projectPath": "E:\\Bibliothek\\gitprojects\\CompanyDataAdministration\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj",
+        "projectPath": "E:\\Bibliothek\\gitprojects\\CompanyDataAdministrationCRUD\\CompanyDataAdministrationAPI\\CompanyDataAdministrationAPI.csproj",
         "packagesPath": "C:\\Users\\mrjog\\.nuget\\packages\\",
-        "outputPath": "E:\\Bibliothek\\gitprojects\\CompanyDataAdministration\\CompanyDataAdministrationAPI\\obj\\",
+        "outputPath": "E:\\Bibliothek\\gitprojects\\CompanyDataAdministrationCRUD\\CompanyDataAdministrationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -40,6 +40,7 @@ namespace CompanyDataAdministrationApplication.UI
             txt_country_post.Visible = b;
         }
 
+        //precheck for length and catch errors (phone or fax too long for integers)
         private void btn_save_Click(object sender, EventArgs e)
         {
             List<CompanyFull> companyList = new List<CompanyFull>();

@@ -18,6 +18,11 @@ namespace CompanyDataAdministrationAPI.Controllers
 
         private readonly ILogger<CompanyDataController> _logger;
 
+        /**
+         * Post and Put don't work
+         * 
+         * split onto different Controllers for different Models & create more detailed urls
+        **/
         public CompanyDataController(ILogger<CompanyDataController> logger, CompanyService companyService, CompanyFullService companyFullService)
         {
             _logger = logger;
@@ -40,7 +45,7 @@ namespace CompanyDataAdministrationAPI.Controllers
         [HttpPost]
         public IActionResult CreateNewCompany(List<CompanyFull> companyList)
         {
-            foreach(CompanyFull company in companyList) /* If it's stupid and it works it ain't stupid. Problem is it ain't workin so it's just stupid*/
+            foreach(CompanyFull company in companyList)
             {
                 _companyFullService.CreateCompanyEntry(company);
             }

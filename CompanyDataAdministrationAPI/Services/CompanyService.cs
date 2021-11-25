@@ -24,7 +24,7 @@ namespace CompanyDataAdministrationAPI.Services
         {
             return _companyContext.Companies
                 .Where(c => c.IsDeleted == false || c.IsDeleted == null)
-                .ToList<Company>();//*/
+                .ToList<Company>();
         }
 
         internal void Delete(int Id)
